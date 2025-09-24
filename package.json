@@ -1,0 +1,30 @@
+{
+  "name": "discord-join-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that uses OAuth2 and refresh tokens to add authorized users to servers, with SQLite + GitHub backup.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "oauth2",
+    "sqlite",
+    "github"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^21.0.0",
+    "better-sqlite3": "^9.4.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
