@@ -14,7 +14,7 @@
     "sqlite",
     "github"
   ],
-  "author": "Your Name",
+  "author": "vtrxx_1",
   "license": "MIT",
   "dependencies": {
     "@octokit/rest": "^21.0.0",
